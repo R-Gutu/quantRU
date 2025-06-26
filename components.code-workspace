@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "components",
+			"path": "../components"
+		},
+		{
+			"name": "multiple-languages-next-js-main",
+			"path": "."
+		}
+	],
+	"settings": {}
+}

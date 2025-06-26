@@ -1,0 +1,46 @@
+{
+  "name": "quant-apps",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@hookform/resolvers": "^3.9.1",
+    "@mui/material": "^6.4.0",
+    "@next/third-parties": "^15.1.6",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.6.0",
+    "lucide-react": "^0.460.0",
+    "motion": "^12.5.0",
+    "next": "^15.2.3",
+    "next-intl": "^3.26.3",
+    "quant-apps": "file:",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.53.2",
+    "react-icons": "^5.5.0",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss-animate": "^1.0.7",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^9.18.0",
+    "eslint-config-next": "15.1.5",
+    "eslint-plugin-next": "^0.0.0",
+    "eslint-plugin-react": "^7.37.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

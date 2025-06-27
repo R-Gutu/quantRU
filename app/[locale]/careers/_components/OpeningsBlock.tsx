@@ -7,7 +7,7 @@ import { ReactNode } from "react";
 const OpeningsBlock = ({title, name, text, src, alt} : {title: string, name: string, text: string | ReactNode, src: string, alt: string}) => {
   const subject = encodeURIComponent("Support Request");
   const body = encodeURIComponent("Hello, I need help with...");
-  const mailtoLink = `mailto:support@quant-apps.ru?subject=${subject}&body=${body}`;
+  const mailtoLink = `mailto:support@quant-apps.com?subject=${subject}&body=${body}`;
 
   return (
     <div className="max-mui-md:border-t-[1px] border-[#6A65FF80]">

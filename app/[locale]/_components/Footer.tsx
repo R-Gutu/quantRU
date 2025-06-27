@@ -68,7 +68,7 @@ const Footer = async () => {
             <div className="max-smallest:w-full">
               <div className="flex items-center justify-center gap-[10px]">
                 <Image width={24} height={24} src='/images/icons/email.svg' alt="email"/>
-                support@quant-apps.ru
+                support@quant-apps.com
               </div>
               <hr className="w-full border-[#6A65FF1A] border-[1px]" />
             </div>

@@ -72,6 +72,15 @@ const ProjectsPage = async () => {
       link: t('items.5.link'),
       text: t.rich('items.5.description', strong),
       "className": ""
+    },
+    {
+      title: t('items.6.title'),
+      src: t('items.6.image'),
+      alt: t('items.6.alt'),
+      linkname: t('items.6.linkName'),
+      link: t('items.6.link'),
+      text: t.rich('items.6.description', strong),
+      "className": ""
     }
   ];
 

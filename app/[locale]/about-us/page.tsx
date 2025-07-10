@@ -29,20 +29,20 @@ const Page = async () => {
 
   const teamMembers: TeamMemberType[] = [
     {
-      name: t('team.members.0.name'),
-      position: t('team.members.0.position'),
-      link: "https://www.linkedin.com/in/roman-gutu-920693229/",
-      src: t('team.members.0.src'),
-      alt: t('team.members.0.alt'),
-      text: t.rich('team.members.0.text', strong)
-    },
-    {
       name: t('team.members.1.name'),
       position: t('team.members.1.position'),
       link: "https://www.linkedin.com/in/veaceslav-soltan-290072261/",
       src: t('team.members.1.src'),
       alt: t('team.members.1.alt'),
       text: t.rich('team.members.1.text', strong)
+    },
+    {
+      name: t('team.members.0.name'),
+      position: t('team.members.0.position'),
+      link: "https://www.linkedin.com/in/roman-gutu-920693229/",
+      src: t('team.members.0.src'),
+      alt: t('team.members.0.alt'),
+      text: t.rich('team.members.0.text', strong)
     },
     {
       name: t('team.members.2.name'),
